@@ -10,27 +10,35 @@ import XCTest
 
 final class Wayfair_Coding_ChallengeTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testRoundToNearestHalf() {
+        XCTAssertEqual(3.7.roundToNearestHalf(), 3.5, accuracy: 0.001)
+        XCTAssertEqual(2.3.roundToNearestHalf(), 2.5, accuracy: 0.001)
+        XCTAssertEqual(4.0.roundToNearestHalf(), 4.0, accuracy: 0.001)
+        XCTAssertEqual((-1.8).roundToNearestHalf(), -2.0, accuracy: 0.001)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testFormatDate() {
+        XCTAssertEqual("1-15-2022".formatDate(), "Jan 15, 2022")
+        XCTAssertEqual("invalid-date-format".formatDate(), "invalid-date-format")
+        XCTAssertEqual("20-5-2023".formatDate(), "20-5-2023")
     }
+    
+    func testGetProducts() {
+        let expectation = XCTestExpectation(description: "Fetching products")
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+        ProductsPageModel().getProducts { products in
+            XCTAssertFalse(products.isEmpty, "Products array should not be empty")
+            
+            for product in products {
+                XCTAssertFalse(product.name.isEmpty, "Product name should exist")
+                XCTAssertFalse(product.tagline.isEmpty, "Product tagline should exist")
+                XCTAssertFalse(product.date.isEmpty, "Product date should exist")
+                XCTAssertFalse(product.rating.isNaN, "Product rating should be a number")
+            }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+            expectation.fulfill()
         }
-    }
 
+        wait(for: [expectation], timeout: 5.0)
+    }
 }

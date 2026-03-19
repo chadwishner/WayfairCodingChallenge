@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		67C6A8822B182F7F001105C7 /* Wayfair_Coding_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8812B182F7F001105C7 /* Wayfair_Coding_ChallengeApp.swift */; };
-		67C6A8842B182F7F001105C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8832B182F7F001105C7 /* ContentView.swift */; };
 		67C6A8862B182F80001105C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C6A8852B182F80001105C7 /* Assets.xcassets */; };
 		67C6A8892B182F80001105C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C6A8882B182F80001105C7 /* Preview Assets.xcassets */; };
 		67C6A8932B182F80001105C7 /* Wayfair_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8922B182F80001105C7 /* Wayfair_Coding_ChallengeTests.swift */; };
 		67C6A89D2B182F80001105C7 /* Wayfair_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A89C2B182F80001105C7 /* Wayfair_Coding_ChallengeUITests.swift */; };
 		67C6A89F2B182F80001105C7 /* Wayfair_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A89E2B182F80001105C7 /* Wayfair_Coding_ChallengeUITestsLaunchTests.swift */; };
+		67C6A8B52B183054001105C7 /* SystemUIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8B42B183054001105C7 /* SystemUIExtensions.swift */; };
+		67C6A8B82B183065001105C7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8B72B183065001105C7 /* Product.swift */; };
+		67C6A8BD2B1830B4001105C7 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8BB2B1830B4001105C7 /* TextFieldView.swift */; };
+		67C6A8BE2B1830B4001105C7 /* SystemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8BC2B1830B4001105C7 /* SystemImageView.swift */; };
+		67C6A8C12B1830CF001105C7 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8C02B1830CF001105C7 /* RatingsView.swift */; };
+		67C6A8C42B1830DD001105C7 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8C32B1830DD001105C7 /* ProductView.swift */; };
+		67C6A8C82B1830EE001105C7 /* ProductsPageScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8C62B1830EE001105C7 /* ProductsPageScreenView.swift */; };
+		67C6A8C92B1830EE001105C7 /* ProductsPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8C72B1830EE001105C7 /* ProductsPageModel.swift */; };
+		67C6A8CC2B1830FA001105C7 /* ProductPageTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8CB2B1830FA001105C7 /* ProductPageTemplateView.swift */; };
+		67C6A8CE2B18314B001105C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6A8CD2B18314B001105C7 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		67C6A87E2B182F7F001105C7 /* Wayfair Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wayfair Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C6A8812B182F7F001105C7 /* Wayfair_Coding_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wayfair_Coding_ChallengeApp.swift; sourceTree = "<group>"; };
-		67C6A8832B182F7F001105C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67C6A8852B182F80001105C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C6A8882B182F80001105C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67C6A88E2B182F80001105C7 /* Wayfair Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wayfair Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,16 @@
 		67C6A8982B182F80001105C7 /* Wayfair Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wayfair Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C6A89C2B182F80001105C7 /* Wayfair_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wayfair_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		67C6A89E2B182F80001105C7 /* Wayfair_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wayfair_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67C6A8B42B183054001105C7 /* SystemUIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUIExtensions.swift; sourceTree = "<group>"; };
+		67C6A8B72B183065001105C7 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		67C6A8BB2B1830B4001105C7 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		67C6A8BC2B1830B4001105C7 /* SystemImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImageView.swift; sourceTree = "<group>"; };
+		67C6A8C02B1830CF001105C7 /* RatingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		67C6A8C32B1830DD001105C7 /* ProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		67C6A8C62B1830EE001105C7 /* ProductsPageScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPageScreenView.swift; sourceTree = "<group>"; };
+		67C6A8C72B1830EE001105C7 /* ProductsPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPageModel.swift; sourceTree = "<group>"; };
+		67C6A8CB2B1830FA001105C7 /* ProductPageTemplateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPageTemplateView.swift; sourceTree = "<group>"; };
+		67C6A8CD2B18314B001105C7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,11 @@
 		67C6A8802B182F7F001105C7 /* Wayfair Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				67C6A8B92B1830A1001105C7 /* UI */,
+				67C6A8B62B183059001105C7 /* Models */,
+				67C6A8B32B18303C001105C7 /* Tools */,
 				67C6A8812B182F7F001105C7 /* Wayfair_Coding_ChallengeApp.swift */,
-				67C6A8832B182F7F001105C7 /* ContentView.swift */,
+				67C6A8CD2B18314B001105C7 /* ContentView.swift */,
 				67C6A8852B182F80001105C7 /* Assets.xcassets */,
 				67C6A8872B182F80001105C7 /* Preview Content */,
 			);
@@ -125,6 +146,76 @@
 				67C6A89E2B182F80001105C7 /* Wayfair_Coding_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Wayfair Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		67C6A8B32B18303C001105C7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8B42B183054001105C7 /* SystemUIExtensions.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		67C6A8B62B183059001105C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8B72B183065001105C7 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67C6A8B92B1830A1001105C7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8CA2B1830F1001105C7 /* Templates */,
+				67C6A8C52B1830E1001105C7 /* Screens */,
+				67C6A8C22B1830D4001105C7 /* Organisms */,
+				67C6A8BF2B1830C5001105C7 /* Molecules */,
+				67C6A8BA2B1830A9001105C7 /* Atoms */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		67C6A8BA2B1830A9001105C7 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8BC2B1830B4001105C7 /* SystemImageView.swift */,
+				67C6A8BB2B1830B4001105C7 /* TextFieldView.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		67C6A8BF2B1830C5001105C7 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8C02B1830CF001105C7 /* RatingsView.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		67C6A8C22B1830D4001105C7 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8C32B1830DD001105C7 /* ProductView.swift */,
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		67C6A8C52B1830E1001105C7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8C72B1830EE001105C7 /* ProductsPageModel.swift */,
+				67C6A8C62B1830EE001105C7 /* ProductsPageScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		67C6A8CA2B1830F1001105C7 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				67C6A8CB2B1830FA001105C7 /* ProductPageTemplateView.swift */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C6A8842B182F7F001105C7 /* ContentView.swift in Sources */,
+				67C6A8C42B1830DD001105C7 /* ProductView.swift in Sources */,
 				67C6A8822B182F7F001105C7 /* Wayfair_Coding_ChallengeApp.swift in Sources */,
+				67C6A8CE2B18314B001105C7 /* ContentView.swift in Sources */,
+				67C6A8C12B1830CF001105C7 /* RatingsView.swift in Sources */,
+				67C6A8BD2B1830B4001105C7 /* TextFieldView.swift in Sources */,
+				67C6A8C92B1830EE001105C7 /* ProductsPageModel.swift in Sources */,
+				67C6A8B82B183065001105C7 /* Product.swift in Sources */,
+				67C6A8C82B1830EE001105C7 /* ProductsPageScreenView.swift in Sources */,
+				67C6A8CC2B1830FA001105C7 /* ProductPageTemplateView.swift in Sources */,
+				67C6A8B52B183054001105C7 /* SystemUIExtensions.swift in Sources */,
+				67C6A8BE2B1830B4001105C7 /* SystemImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
